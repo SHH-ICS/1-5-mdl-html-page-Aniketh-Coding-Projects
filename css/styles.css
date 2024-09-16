@@ -1,6 +1,33 @@
-/* Due to error in MDL : https://github.com/google/material-design-lite/issues/5281
-*/
-.mdl-ripple {
-  background: #000;
-  opacity: 0.001;
+body {
+  background-color: #f3f4f6;
+  font-family: 'Roboto', sans-serif;
+}
+
+.custom-header {
+  background-color: #3f51b5;
+}
+
+
+.custom-button {
+  background-color: #ff4081;
+
+  color: white;
+  font-weight: bold;
+}
+
+
+.page-content {
+  padding: 20px;
+  text-align: center;
+}
+
+
+.mdl-textfield__input {
+  color: #3f51b5;
+
+}
+
+
+.custom-button:hover {
+  background-color: #f50057;
 }
